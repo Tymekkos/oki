@@ -35,7 +35,7 @@ int main()
 			d = DzielnikiD[j];
 			if( isValid(c*d, C*D/(c*d), A, B) ){
 				cout << "tak" << endl;
-				break;
+				return 0;
 			}
 		}
 	}
